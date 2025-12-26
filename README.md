@@ -23,6 +23,9 @@ Designed and implemented a production monitoring dashboard following **ISA101 Hi
 | **Database** | MS SQL Server (Data Logging & OEE) |
 | **Standards** | ISA101 High-Performance HMI |
 
+<img width="825" height="745" alt="Screenshot 2025-12-26 230003" src="https://github.com/user-attachments/assets/43563e48-e945-463d-887f-0bcbc0654b8e" />
+
+
 ## 🚀 Key Features
 
 ### 1. **Priority-Based Signaling**
