@@ -1,0 +1,97 @@
+{
+  "name": "_types_",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "typeColor": -10719104,
+      "name": "New Type",
+      "typeId": "",
+      "tagType": "UdtType"
+    },
+    {
+      "name": "New Folder",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "tooltip": {
+            "bindType": "parameter",
+            "binding": "{PathToTag}"
+          },
+          "typeColor": -65536,
+          "name": "UDT_stageno",
+          "typeId": "",
+          "parameters": {
+            "workcom": {
+              "dataType": "String",
+              "value": ""
+            },
+            "Emergency": {
+              "dataType": "Integer"
+            },
+            "devicename": {
+              "dataType": "String",
+              "value": "iqr"
+            },
+            "Maintanance": {
+              "dataType": "String"
+            },
+            "device": {
+              "dataType": "String",
+              "value": "line1"
+            },
+            "Quality": {
+              "dataType": "String"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[{devicename}]{workcom}"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "WORKCOM",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[{devicename}]{Emergency}"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "EMERGENCY",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[{devicename}]{Quality}"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "QUALITY",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "[{devicename}]{Maintenance}"
+              },
+              "valueSource": "opc",
+              "dataType": "String",
+              "name": "MAINTENANCE",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
