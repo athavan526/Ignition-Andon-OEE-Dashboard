@@ -61,7 +61,8 @@ Designed and implemented a production monitoring dashboard following **ISA101 Hi
 | Dashboard Overview | Tag Quality Status | Priority Signaling |
 |--------------------|--------------------|-------------------|
 | ![Dashboard] <img width="825" height="745" alt="Screenshot 2025-12-26 230003" src="https://github.com/user-attachments/assets/deba174e-ebe3-412c-8308-a8fbb695ba3f" />
-![Tag Status](Images/tag-quality-good.png) | ![Priority](Images/priority-signaling.png) |
+![Tag Status].<img width="707" height="882" alt="Screenshot 2025-12-26 235224" src="https://github.com/user-attachments/assets/0875149c-fb6e-4795-ba14-3bed105d9bff" />.| ![Priority](Images/priority-signaling.png) |
+
 
 ## 🎯 Business Impact
 
